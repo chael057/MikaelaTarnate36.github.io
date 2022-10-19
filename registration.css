@@ -1,0 +1,555 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}
+
+.logo{
+    width: 1170px;
+    margin: auto;
+      
+} 
+
+
+.navigation{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.navigation li{
+    display: inline-block;
+}
+
+.navigation li a{
+    color: lightpink;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.navigation li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.logopic img{
+    width: 3cm;
+    height: 3cm;
+    float: left;
+    position: relative;
+    top: -30px;
+    margin-left: -40px;
+    border-radius: 100px;
+}
+
+
+.form{
+    background-color: black;
+}
+.page{
+    width:800px;
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px;
+    width: 750px;
+}
+
+.upper{
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 815px;
+    height:1700px;
+    margin: auto;
+}
+
+    form{
+        padding: 20px;
+        
+
+}
+
+.studentname{
+    width: 50%;
+    height: 10px;
+}
+
+.studentname{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight:700;
+}
+
+.firstname{
+    position: relative;
+    left:20px;
+    top: 25px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+.middlename{
+    position: relative;
+    left: 220px;
+    top: -19px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+
+.lastname{
+    position: relative;
+    left:160px;
+    top: -19px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+    color:#555;
+}
+
+.firstlabel{
+    position:relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:23px;
+    top: 15px;
+}
+
+.middlelabel{
+    position:relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:-25px;
+    top: 15px;
+}
+.lastlabel{
+    position:relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:-85px;
+    top: 15px;
+}
+
+.birthdate{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight:700;
+
+}
+
+#month{
+    position: relative;
+    left:-60px;
+    top: 10px;
+    height: 30px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 12px;
+    font-size: 16px;
+}
+
+#day{
+    position: relative;
+    left: 100px;
+    top: -19px;
+    height: 30px; 
+    width: 100px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 15px;
+    font-size: 16px;
+}
+
+
+#year{
+    position: relative;
+    left: 220px;
+    top: -50px;
+    height: 30px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 20px;
+    font-size: 16px;
+}
+
+
+.monthlabel{
+    position: relative;
+    left:10px;
+    top: 35px;
+    padding:0 22px;
+    font-size: 14px;
+    color: white;
+}
+
+.daylabel{
+    position: relative;
+    left:155px;
+    top: 5px;
+    padding:0 22px;
+    font-size: 14px;
+    color: white;
+}
+
+
+.yearlabel{
+    position: relative;
+    left:275px;
+    top: -25px;
+    padding:0 22px;
+    font-size: 14px;
+    color: white;
+}
+
+.Gender{
+        margin-right: 130px;
+        margin-top: -110px;
+        width: 125px;
+        color: white;
+        font-size: 18px;
+        font-weight:700;
+        float: right;
+}
+
+#gender{
+    margin-right: 130px;
+    margin-top: -80px;
+    width: 125px;
+    color: black;
+    font-size: 14px;
+    float: right;
+    border-radius: 6px;
+    height: 30px;
+}
+
+.address{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight:700;
+}
+.streetaddress{
+        position: relative;
+        left:20px;
+        top: 10px;
+        line-height: 40px;
+        width:725px;
+        border-radius: 6px;
+        padding:0 22px;
+        font-size: 16px;
+}
+
+.SA{
+        position:relative;
+        color: #e5e5e5;
+        text-transform: capitalize;
+        font-size: 14px;
+        left:23px;
+        top: 15px;
+    }
+.streetaddress2{
+        position: relative;
+        left:20px;
+        top: 15px;
+        line-height: 40px;
+        width:725px;
+        border-radius: 6px;
+        padding:0 22px;
+        font-size: 16px;
+}
+.SA2{
+    position:relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:23px;
+    top:15px;
+}
+
+.city{
+    position: relative;
+    left: 20px;
+    top: 40px;
+    line-height: 40px;
+    width:300px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+ .cityy{
+    position:relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:23px;
+    top: 30px;
+ }
+
+.SP{
+    position: relative;
+    left:450px;
+    top: -3px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+    width: 270px;
+}
+
+.state{
+    position:relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:480px;
+    top: 1px;
+}
+
+.postalzipcode{
+        position: relative;
+        left:20px;
+        top: 10px;
+        line-height: 40px;
+        width:725px;
+        border-radius: 6px;
+        padding:0 22px;
+        font-size: 16px;    
+
+}
+
+.pz{
+    position:relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:23px;
+    top:10px;
+}
+
+.studemail{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight:700;
+}
+
+.STE{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    line-height: 40px;
+    width:300px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+.mobnum{
+    margin-left: 480px;
+    margin-top: -59px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight:700;
+
+}
+
+.MN{
+    position: relative;
+    left:480px;
+    top: 4px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+    width: 270px;
+    
+}
+.phonenumber{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight:700;
+}
+
+.PN{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    line-height: 40px;
+    width:300px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px; 
+}
+
+.worknumber{
+        margin-left: 480px;
+        margin-top: -59px;
+        width: 125px;
+        color: white;
+        font-size: 18px;
+        font-weight:700;
+}
+
+.WN{
+    position: relative;
+    left:480px;
+    top: 4px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+    width: 270px;
+}
+.company{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight:700;
+}
+
+
+.company2{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    line-height: 40px;
+    width:300px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+.course{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight:700;
+}
+
+#entcourse{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    line-height: 0px;
+    width:350px;
+    height: 45px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+.addcom{
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+
+}
+
+.AC{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    width:730px;
+    height: 200px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+button{
+    background-color: lightpink;
+    margin: 3%;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid;
+    padding: 10px 40px;
+    color: white;
+    cursor:pointer;
+    transition: 0.25px;
+  
+}
+
+
+.clearfields{
+    background-color:lightpink;
+    margin-left: 480px;
+    margin-top: -65px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid;
+    padding: 10px 40px;
+    cursor:pointer;
+    transition: 0.25px;
+    float: right;
+    
+}
+
+footer {
+    background-color: pink;
+    background-size: 10px;
+    text-align: left;
+    left: -300px;
+    height: 4%;
+    width: 1390px;
+    top: 150px;
+    position: relative;
+}
+
+.account {
+position: relative;
+bottom: 10px;
+left: 35px;
+}
+
+.FB {
+position: relative;
+width: 1cm;
+height: 1cm;
+border-radius: 25px;
+top: 4px;
+left: 40px;
+}
+
+
+.copyright {
+position: relative;
+bottom: 10px;
+right: -1020px;
+font-style: italic;
+
+}

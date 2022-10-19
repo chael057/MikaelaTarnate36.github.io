@@ -1,0 +1,114 @@
+header {
+    padding-top: 5px;
+    border-radius: 70px;
+}
+.navigation{
+    float: right;
+    margin-top: 50px;
+    right: auto;
+}
+
+.navigation li{
+    display: inline-block;
+}
+
+.navigation li a{
+    color: lightpink;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.navigation li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.logopic img{
+    width: 3cm;
+    height: 3cm;
+    float: left;
+    position: relative;
+    top: 10px;
+    margin-left: -40px;
+    border-radius: 100px;
+}
+
+h4{
+    color: white;
+    position: relative ;
+    left: 80px;
+}
+.logopic {
+    position: relative;
+    border-radius: 100px;
+    height: 3cm;
+    width: 3cm;
+    left: 20px;
+    top: 7px;
+}
+
+
+body {
+    position: relative;
+    height: 600px;
+    background-color: black;
+    background-size: cover;
+    margin-right: 200px;
+}
+
+div {
+    position: relative;
+    text-align: center;
+    top: 25px;
+}
+
+table {
+    position: relative;
+    left: 365px;
+    border: none;
+}
+
+th {
+    background-color: pink;
+    padding: 10px;
+}
+
+td {
+    background-color: gray;
+}
+
+footer {
+        background-color: pink;
+        background-size: 10px;
+        text-align: left;
+        height: 9%;
+        width: 1357px;
+        top: 115.5px;
+        position: relative;
+}
+
+.account {
+    position: relative;
+    bottom: 10px;
+    left: 35px;
+}
+
+.FB {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 4px;
+    left: 40px;
+}
+
+
+.copyright {
+    position: relative;
+    bottom: 10px;
+    right: -1020px;
+    font-style: italic;
+    
+}

@@ -1,0 +1,148 @@
+body{
+    background-color:black;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    position: relative;
+    height: 1000px;
+}
+.logo{
+    width: 1170px;
+    margin: auto;
+}
+.navigation{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+.navigation li{
+    display: inline-block;
+}
+
+.navigation li a{
+    color: lightpink;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.navigation li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.logopic img{
+    width: 3cm;
+    height: 3cm;
+    float: left;
+    position: relative;
+    top: -20px;
+    margin-left: -60px;
+    border-radius: 100px;
+}
+
+
+.main{
+    background-color: white;
+    width: 830px;
+    height:900px;
+    margin: auto;
+    padding: 80px;
+}
+
+form{
+    padding: 20px;
+}
+
+fieldset{
+    border-radius: 6px;
+}
+
+.studinformation{
+    background-color:lightpink;
+    border-radius: 6px;
+    height: 20px;
+    
+    
+}
+
+.examproper{
+    background-color:lightpink;
+    border-radius: 6px;
+    height: 20px;
+    
+}
+
+.textarea{
+    position: relative;
+    left: 12px;
+    top: 10px;
+    line-height: px;
+    width:730px;
+    height: 200px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+button{
+    background-color: darksalmon;
+    display: block;
+    margin: 35px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 10px 40px;
+    outline: none;
+    color: white;
+    cursor:pointer;
+    transition: 0.25px;
+    
+  
+}
+
+#finish{
+    position:relative;
+    top: -80px;
+    left: -350px;
+   float: right;
+   height: 50px;
+   width: 300px;
+}
+footer {
+    background-color: pink;
+    background-size: 10px;
+    text-align: left;
+    left: -300px;
+    height: 60px;
+    width: 1605px;
+    top: 20px;
+    position: relative;
+}
+.account {
+    position: relative;
+    bottom: 10px;
+    left: 230px;
+    }
+    
+.FB {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 7px;
+    left: 240px;
+}
+    
+    
+.copyright {
+    position: relative;
+    bottom: 10px;
+    right: -1250px;
+    font-style: italic;
+    
+}

@@ -1,0 +1,76 @@
+body{
+    background-color:gray;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}
+
+
+.main{
+    background-color: white;
+    width: 830px;
+    height:900px;
+    margin: auto;
+    padding: 80px;
+}
+
+form{
+    padding: 20px;
+}
+
+fieldset{
+    border-radius: 6px;
+}
+
+.studinfo{
+    background-color:lightpink;
+    border-radius: 6px;
+    height: 20px;
+    
+    
+}
+
+.examproper{
+    background-color:lightpink;
+    border-radius: 6px;
+    height: 20px;
+    
+}
+
+.textarea{
+    position: relative;
+    left: 12px;
+    top: 10px;
+    line-height: px;
+    width:730px;
+    height: 200px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+button{
+    background-color: darksalmon;
+    display: block;
+    margin: 35px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 10px 40px;
+    outline: none;
+    color: white;
+    cursor:pointer;
+    transition: 0.25px;
+    
+  
+}
+
+#finish{
+    position:relative;
+    top: -80px;
+    left: -350px;
+   float: right;
+   height: 50px;
+   width: 300px;
+}
